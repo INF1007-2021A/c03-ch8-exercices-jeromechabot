@@ -106,7 +106,8 @@ def lire_nombres(nom_fichier):
                     liste_nombres.append(int(mot))
 
     return(sorted(liste_nombres))
-    
+
+#Exercice 6
 def ecrire_ligne_sur_deux(nom_fichier_lecture, nom_fichier_ecriture):
     liste_lignes = []
     with open(nom_fichier_lecture, "r", encoding="cp1252") as f:
